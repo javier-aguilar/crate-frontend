@@ -69,7 +69,7 @@ class Item extends PureComponent {
     return (
       <Card style={{ width: '18em', backgroundColor: white }}>
         <p style={{ padding: '2em 3em 0 3em' }}>
-          <img src={`${ APP_URL }/images/crate.png`} alt={ crate.name } style={{ width: '100%' }}/>
+          <img src='/images/crate.png' alt={ crate.name } style={{ width: '100%' }}/>
         </p>
 
         <div style={{ padding: '1em 1.2em' }}>

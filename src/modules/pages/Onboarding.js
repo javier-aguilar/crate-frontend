@@ -64,7 +64,7 @@ class Onboarding extends PureComponent {
 
         {/* Right - Image */}
         <GridCell>
-          <img src={`${ APP_URL }/images/collage.png`} alt="collage" title="products collage" style={{ width: 400 }}/>
+          <img src='/images/collage.png' alt="collage" title="products collage" style={{ width: 400 }}/>
         </GridCell>
       </Grid>,
 
@@ -72,7 +72,7 @@ class Onboarding extends PureComponent {
       <Grid alignCenter={true} style={{ height: '100%', textAlign: 'center', color: white }}>
         {/* Left - Image */}
         <GridCell>
-          <img src={`${ APP_URL }/images/collage.png`} alt="collage" title="products collage" style={{ width: 400 }}/>
+          <img src='/images/collage.png' alt="collage" title="products collage" style={{ width: 400 }}/>
         </GridCell>
 
         {/* Right - Headline and info */}
@@ -98,7 +98,7 @@ class Onboarding extends PureComponent {
 
         {/* Right - Image */}
         <GridCell>
-          <img src={`${ APP_URL }/images/collage.png`} alt="collage" title="products collage" style={{ width: 400 }}/>
+          <img src='/images/collage.png' alt="collage" title="products collage" style={{ width: 400 }}/>
         </GridCell>
       </Grid>,
 
