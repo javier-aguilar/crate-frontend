@@ -8,7 +8,7 @@
     "start": "npm run build:client && npm run start:server",
     "build:client": "webpack -d && babel-node src/setup/server/pwa.js",
     "start:server": "nodemon --exec babel-node -- src/index.js",
-    "heroku-postbuild": "npm install",
+    "heroku-prebuild": "npm install --dev",
     "start:prod": "npm run build:client:prod && npm run build:server:prod && npm run start:server:prod",
     "build:client:prod": "webpack -p",
     "build:server:prod": "babel src -s -D -d build",
