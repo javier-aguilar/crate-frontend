@@ -47,12 +47,12 @@ const HowItWorks = (props) => (
         <p style={{ marginTop: '0.5em', color: grey3 }}>Choose one or multiple crates as per your need.</p>
       </GridCell>
 
-      <GridCell style={{ background: `url('${ APP_URL }/images/stock/how-it-works/1.jpg') center top no-repeat` }}/>
+      <GridCell style={{ background: `url('/images/stock/how-it-works/1.jpg') center top no-repeat` }}/>
     </Grid>
 
     {/* 2 - Receive a Fix Delivery */}
     <Grid>
-      <GridCell style={{ background: `url('${ APP_URL }/images/stock/how-it-works/2.jpg') center top no-repeat` }}/>
+      <GridCell style={{ background: `url('/images/stock/how-it-works/2.jpg') center top no-repeat` }}/>
 
       <GridCell justifyCenter={true} style={{ textAlign: 'center', padding: '8em 0em' }}>
         <Icon size={4} style={{ color: grey3, textShadow: textLevel1 }}>looks_two</Icon>
@@ -73,7 +73,7 @@ const HowItWorks = (props) => (
         <p style={{ marginTop: '0.5em', color: grey3 }}>Only pay for what you keep. Returns are easy and free.</p>
       </GridCell>
 
-      <GridCell style={{ background: `url('${ APP_URL }/images/stock/how-it-works/3.jpg') center top no-repeat` }}/>
+      <GridCell style={{ background: `url('/images/stock/how-it-works/3.jpg') center top no-repeat` }}/>
     </Grid>
 
     {/* Bottom call to action bar */}
